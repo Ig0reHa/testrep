@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Профиль</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="canonical" href="https://www.tespa.ru/profile" />
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/build/main.79d6ad1f.css">
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PLK5788');</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160289681-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-160289681-1');
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+        ym(60737440, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/60737440" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!--
+    <link href="css/site.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    -->
+
+</head>
+
+<body class="">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLK5788" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <div id="app">
+        <header>
+            <div class="overlay"></div>
+            <div class="upper_block hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <div class="new-select" style="margin-top: 10px;">
+                                <button class="new-select__location" type="button"></button>
+                                <div class="new-select__value" title="Изменить город">
+                                    <span class="new-select__city">Россия</span>
+                                </div>
+                                <input class="new-select__input show_city_select_js_input" data-change="/region/change"
+                                    type="hidden" value="1">
+
+                                <div class="new-select__list">
+                                    <div class="new-select__search">
+                                        <input class="new-select__search-field" type="search" tabindex="0"
+                                            autocomplete="off" autocorrect="off" autocapitalize="none"
+                                            spellcheck="false" role="textbox">
+                                    </div>
+                                    <ul class="new-search__result"></ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-7">
+                            <span>
+                                <span class="favorites"></span>
+                                <a href="/favorites">Избранное</a>
+                            </span>
+                            <span>
+                                <span class="icon_small login"></span>
+                                <a href="/profile">ig0rehatrader@gmail.com</a>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="lower_block">
+                <div class="container flex">
+
+
+                    <div class="main-menu hidden-lg hidden-md hidden-sm">
+                        <div class="menu-toggle">
+                            <div class="one"></div>
+                            <div class="two"></div>
+                            <div class="three"></div>
+                            <span class="message"></span>
+                        </div>
+                        <div class="main-menu-nav">
+                            <div class="person_wrapper">
+                                <span class="icon_network person"></span>
+                                <div class="name">
+                                    <a href="/profile/ads">ig0rehatrader@gmail.com</a>
+                                </div>
+                                <a href="/logout" class="white text-center"><span
+                                        class='icon_network logout'></span></a>
+                            </div>
+                            <div class="info">
+                                <ul>
+                                    <li><a href="/profile/ads">Мои объявления</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="/profile">Мой профиль</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Журнал</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="/rules">Правила</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="/help">Помощь</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="info">
+                                <ul>
+                                    <li><a href="/profile/ads">Мои объявления</a></li>
+                                </ul>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+
+
+                    <div class="logo">
+                        <a href="/">
+                            <img src="/img/logo.svg" alt="TESPA">
+                            <div class="hidden-xs">Продажа и покупка спецтехники</div>
+                        </a>
+                    </div>
+
+
+
+
+
+
+                    <div class="search_wrap hidden-xs">
+                        <div class="form_wrapper">
+                            <form action="/search" method="get">
+                                <div class="flex">
+
+                                    <input id="search-text" name="q" type="text" class="search-widget-text"
+                                        style="width: 100%;" value="" placeholder="Поиск по объявлениям">
+
+                                    <div id="search-suggesters" class="hide" style="position: absolute;">
+                                        <div style="position: relative; top: 30px; left: 150px; border: red solid 1px;">
+                                            <div>Категории</div>
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+
+
+                                    <button type="submit" class="btn btn-success search-widget-main">Найти</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="add_wrap hidden-xs">
+                        <a href="/offer/new" class="js-add-ad">
+                            <button type="button" class="btn btn-primary">Добавить объявление</button>
+                        </a>
+                    </div>
+
+                    <div class="search_xs">
+                        <span class="icon_network search visible-xs" id="search_button"></span>
+                    </div>
+                    <div class="add_xs">
+                        <a href="/offer/new"><span class="icon_network add visible-xs"></span></a>
+                    </div>
+                </div>
+                <div class="navigation" id="search_form">
+                    <div class="visible-xs">
+                        <div class="container">
+                            <form>
+                                <input type="text" class="mobile_search_text" placeholder="Поиск по объявлениям">
+                                <button class="mobile_search_btn">
+                                    <span class="icon_network search_blue"></span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="where visible-xs">
+                <div class="container">
+                    <div class="new-select">
+                        <button class="new-select__location" type="button"></button>
+                        <div class="new-select__value" title="Изменить город">Россия</div>
+
+                        <div class="new-select__list" style="width: 100%;">
+                            <div class="new-select__search">
+                                <input class="new-select__search-field" type="search" tabindex="0" autocomplete="off"
+                                    autocorrect="off" autocapitalize="none" spellcheck="false" role="textbox">
+                            </div>
+                            <ul class="new-search__result"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div align="center">
+            </div>
+
+            <div class="profile">
+                <div class="container">
+                    <div class="profile_menu">
+                        <div class="title">Личный кабинет</div>
+                        <ul>
+
+                            <li class="active "> <a href="/profile"> Мой профиль
+                                </a>
+
+                            </li>
+
+
+                            <li class="end-limit">
+                                <div class="end-limit__count">!</div>
+                                <div class="end-limit__message">
+                                    <p>Осталось бесплатных объявлений:</p>
+                                    <span>8</span>
+                                    <a href="/profile/packages">Приобрести еще</a>
+                                </div>
+                                <a href="/profile/ads"> Мои объявления
+                                    <span class="advertisments">0</span>
+                                </a>
+
+                            </li>
+
+
+                            <li> <a href="/messenger"> Сообщения
+                                </a>
+
+                            </li>
+
+
+                            <li> <a href="/profile/packages"> Пакеты объявлений
+                                </a>
+
+                            </li>
+
+
+                            <li class=""> <a href="/logout"> Выход
+                                </a>
+
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="profile_content registration_wrapper">
+                        <hr class="line visible-xs">
+                        <h3>Личные данные</h3>
+                        <div class="registration">
+                            <form method="post" id="profile-form">
+                                <div class="block email">
+                                    <span class="name">Email</span>
+                                    <div>
+                                        <div class="form-group">
+                                            <input type="text" id="email" name="email" required="required"
+                                                placeholder="tester1@example.com" class="form-control form-control" />
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-default" data-url="" disabled>Сменить</button>
+                                </div>
+                                <div class="block">
+                                    <span class="name">Ваше имя</span>
+                                    <div>
+                                        <div class="form-group">
+                                            <input type="text" id="name" name="name" required="required"
+                                                placeholder="Имя" class="form-control form-control" />
+                                            <div class="help-block"></div>
+                                        </div>
+                                    </div>
+                                    <span class="description">Представьтесь, пожалуйста. Так покупатели будут знать, как
+                                        к вам обратиться.</span>
+                                </div>
+                                <div class="block">
+                                    <span class="name">Номер телефона</span>
+                                    <div class="mobile_wrapper">
+                                        <div class="form-group">
+                                            <input type="text" id="phoneNumber" name="phoneNumber" required="required"
+                                                class="input_phone form-control" inputmode="text" value="">
+                                        </div>
+                                        <div>
+                                            <span class="text-success" style="display: none;">Телефон подтвержден</span>
+                                            <button type="button" class="btn btn-default" data-url="/profile/send-sms"
+                                                disabled>Подтвердить
+                                            </button>
+                                        </div>
+                                        <label class="hidden-xs hidden-sm">Только мобильные номера</label>
+                                    </div>
+                                    <span class="description">На указанный номер телефона придет СМС с кодом
+                                        подтверждения.</span>
+                                </div>
+                                <div class="block settings">
+                                    <button type="submit" id="save" name="save"
+                                        class="btn btn-primary btn">Сохранить</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="phone-number-confirm-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Подтверждение телефона</h5>
+                            <span class="icon_small modal_close" data-dismiss="modal" aria-label="Close"></span>
+                        </div>
+                        <div class="modal-body">
+                            <div class="confirmation_phone_number">
+                                <form id="code-check" action="/profile/verify-code">
+                                    <span>Введите код из СМС</span>
+                                    <input type="text" class="input_code" id="codeCheck">
+                                    <button type="submit" class="btn btn-success js-checkCode"
+                                        data-url="/profile/verify-code">Отправить
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+
+            <div class="footer__top">
+                <div class="footer__container container">
+                    <a class="footer__link" href="/about">О компании</a>
+                    <a class="footer__link" href="/rules">Правила</a>
+                    <a class="footer__link" href="/agreement">Пользовательское соглашение</a>
+                    <a class="footer__link" href="/privacy">Политика конфиденциальности</a>
+                    <a class="footer__link" href="/help">Помощь</a>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="footer__container container">
+                    <div class="footer__copyright">© 2020-2021 ООО "ТЕСПА"</div>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+    <script src="/build/runtime.d94b3b43.js"></script>
+    <script src="/build/0.cf60d32b.js"></script>
+    <script src="/build/1.ff0303cd.js"></script>
+    <script src="/build/main.21f540e1.js"></script>
+    <script src="/build/header.e3c30481.js"></script>
+
+    <script src="/build/profile-form.169e64e4.js"></script>
+</body>
+
+</html>
